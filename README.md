@@ -54,29 +54,7 @@ This guide provides quick instructions to set up and run the RMS project.
 
 3.	Replace <version> with the version of the JDBC driver in lib.
 
-Features
-
-Employee Management
-
-	•	Add, edit, delete employees.
-	•	Manage schedules for employees.
-
-Orders Management
-
-	•	Add, update, or delete items for table orders.
-	•	Calculate totals and generate receipts.
-
-Reservations Management
-
-	•	Create, edit, or cancel reservations.
-	•	Prevent overlapping bookings.
-
-Menu
-
-	•	View and print allergen-specific or full menus.
-
-Notes
-
+## Important Notes
 	•	Default database connection:
 	•	Host: localhost
 	•	Port: 5432
@@ -84,5 +62,30 @@ Notes
 	•	User: SuperAdmin
 	•	Password: Admin123@
 
-clear && javac -cp .:lib/postgresql-42.5.6.jar $(find . -name "*.java") && java -cp .:lib/postgresql-42.5.6.jar Main
+### To compile and run the Java program with the PostgreSQL JDBC driver, run the following command:
+	
+	clear && javac -cp .:lib/postgresql-42.5.6.jar $(find . -name "*.java") && java -cp .:lib/postgresql-42.5.6.jar Main
+
+## Features
+
+### Employee Management
+
+	•	Add, edit, delete employees.
+	•	Manage schedules for employees.
+
+### Orders Management
+
+	•	Add, update, or delete items for table orders.
+	•	Calculate totals and generate receipts.
+
+### Reservations Management
+
+	•	Create, edit, or cancel reservations.
+	•	Prevent overlapping bookings.
+
+### Menu
+
+	•	View and print allergen-specific or full menus.
+
+
 
