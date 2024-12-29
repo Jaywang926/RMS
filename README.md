@@ -1,4 +1,4 @@
-# Restaurant Management System - Setup & Run TL;DR
+# Restaurant Management System - Setup & Run
 
 This guide provides quick instructions to set up and run the RMS project.
 
