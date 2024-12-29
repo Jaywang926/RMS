@@ -30,29 +30,29 @@ This guide provides quick instructions to set up and run the RMS project.
    ```bash
    cd dev
 
-	2.	Restore the database:
+2.	Restore the database:
 
-psql -U your_username -d postgres < restaurantDb.sql
-
-
-	3.	Verify the database:
-
-psql -U your_username -d restaurantDb
-\dt
-
-2. Run the Application
-
-	1.	Compile the project:
-
-javac -cp .:lib/postgresql-<version>.jar ServiceClients/*.java *.java
+	psql -U your_username -d postgres < restaurantDb.sql
 
 
-	2.	Run the main application:
+3.	Verify the database:
 
-java -cp .:lib/postgresql-<version>.jar Main
+	psql -U your_username -d restaurantDb
+	\dt
+
+### 2. Run the Application
+
+1.	Compile the project:
+
+	javac -cp .:lib/postgresql-<version>.jar ServiceClients/*.java *.java
 
 
-	3.	Replace <version> with the version of the JDBC driver in lib.
+2.	Run the main application:
+
+	java -cp .:lib/postgresql-<version>.jar Main
+
+
+3.	Replace <version> with the version of the JDBC driver in lib.
 
 Features
 

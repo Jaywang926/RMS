@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: customers; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: customers; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.customers (
@@ -32,10 +32,10 @@ CREATE TABLE public.customers (
 );
 
 
-ALTER TABLE public.customers OWNER TO jamesbiser;
+ALTER TABLE public.customers OWNER TO jaywang;
 
 --
--- Name: customers_customerid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: customers_customerid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.customers_customerid_seq
@@ -47,17 +47,17 @@ CREATE SEQUENCE public.customers_customerid_seq
     CACHE 1;
 
 
-ALTER TABLE public.customers_customerid_seq OWNER TO jamesbiser;
+ALTER TABLE public.customers_customerid_seq OWNER TO jaywang;
 
 --
--- Name: customers_customerid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: customers_customerid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.customers_customerid_seq OWNED BY public.customers.customerid;
 
 
 --
--- Name: employees; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: employees; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.employees (
@@ -70,10 +70,10 @@ CREATE TABLE public.employees (
 );
 
 
-ALTER TABLE public.employees OWNER TO jamesbiser;
+ALTER TABLE public.employees OWNER TO jaywang;
 
 --
--- Name: employees_employeeid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: employees_employeeid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.employees_employeeid_seq
@@ -85,17 +85,17 @@ CREATE SEQUENCE public.employees_employeeid_seq
     CACHE 1;
 
 
-ALTER TABLE public.employees_employeeid_seq OWNER TO jamesbiser;
+ALTER TABLE public.employees_employeeid_seq OWNER TO jaywang;
 
 --
--- Name: employees_employeeid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: employees_employeeid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.employees_employeeid_seq OWNED BY public.employees.employeeid;
 
 
 --
--- Name: menuitems; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: menuitems; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.menuitems (
@@ -106,10 +106,10 @@ CREATE TABLE public.menuitems (
 );
 
 
-ALTER TABLE public.menuitems OWNER TO jamesbiser;
+ALTER TABLE public.menuitems OWNER TO jaywang;
 
 --
--- Name: menuitems_itemid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: menuitems_itemid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.menuitems_itemid_seq
@@ -121,17 +121,17 @@ CREATE SEQUENCE public.menuitems_itemid_seq
     CACHE 1;
 
 
-ALTER TABLE public.menuitems_itemid_seq OWNER TO jamesbiser;
+ALTER TABLE public.menuitems_itemid_seq OWNER TO jaywang;
 
 --
--- Name: menuitems_itemid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: menuitems_itemid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.menuitems_itemid_seq OWNED BY public.menuitems.itemid;
 
 
 --
--- Name: orderdetails; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: orderdetails; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.orderdetails (
@@ -143,10 +143,10 @@ CREATE TABLE public.orderdetails (
 );
 
 
-ALTER TABLE public.orderdetails OWNER TO jamesbiser;
+ALTER TABLE public.orderdetails OWNER TO jaywang;
 
 --
--- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.orderdetails_orderdetailid_seq
@@ -158,17 +158,17 @@ CREATE SEQUENCE public.orderdetails_orderdetailid_seq
     CACHE 1;
 
 
-ALTER TABLE public.orderdetails_orderdetailid_seq OWNER TO jamesbiser;
+ALTER TABLE public.orderdetails_orderdetailid_seq OWNER TO jaywang;
 
 --
--- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.orderdetails_orderdetailid_seq OWNED BY public.orderdetails.orderdetailid;
 
 
 --
--- Name: orders; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: orders; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.orders (
@@ -179,10 +179,10 @@ CREATE TABLE public.orders (
 );
 
 
-ALTER TABLE public.orders OWNER TO jamesbiser;
+ALTER TABLE public.orders OWNER TO jaywang;
 
 --
--- Name: orders_orderid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: orders_orderid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.orders_orderid_seq
@@ -194,17 +194,17 @@ CREATE SEQUENCE public.orders_orderid_seq
     CACHE 1;
 
 
-ALTER TABLE public.orders_orderid_seq OWNER TO jamesbiser;
+ALTER TABLE public.orders_orderid_seq OWNER TO jaywang;
 
 --
--- Name: orders_orderid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: orders_orderid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.orders_orderid_seq OWNED BY public.orders.orderid;
 
 
 --
--- Name: payments; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: payments; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.payments (
@@ -216,10 +216,10 @@ CREATE TABLE public.payments (
 );
 
 
-ALTER TABLE public.payments OWNER TO jamesbiser;
+ALTER TABLE public.payments OWNER TO jaywang;
 
 --
--- Name: payments_paymentid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: payments_paymentid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.payments_paymentid_seq
@@ -231,17 +231,17 @@ CREATE SEQUENCE public.payments_paymentid_seq
     CACHE 1;
 
 
-ALTER TABLE public.payments_paymentid_seq OWNER TO jamesbiser;
+ALTER TABLE public.payments_paymentid_seq OWNER TO jaywang;
 
 --
--- Name: payments_paymentid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: payments_paymentid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.payments_paymentid_seq OWNED BY public.payments.paymentid;
 
 
 --
--- Name: reservations; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: reservations; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.reservations (
@@ -253,10 +253,10 @@ CREATE TABLE public.reservations (
 );
 
 
-ALTER TABLE public.reservations OWNER TO jamesbiser;
+ALTER TABLE public.reservations OWNER TO jaywang;
 
 --
--- Name: reservations_reservationid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: reservations_reservationid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.reservations_reservationid_seq
@@ -268,17 +268,17 @@ CREATE SEQUENCE public.reservations_reservationid_seq
     CACHE 1;
 
 
-ALTER TABLE public.reservations_reservationid_seq OWNER TO jamesbiser;
+ALTER TABLE public.reservations_reservationid_seq OWNER TO jaywang;
 
 --
--- Name: reservations_reservationid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: reservations_reservationid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.reservations_reservationid_seq OWNED BY public.reservations.reservationid;
 
 
 --
--- Name: schedules; Type: TABLE; Schema: public; Owner: jamesbiser
+-- Name: schedules; Type: TABLE; Schema: public; Owner: jaywang
 --
 
 CREATE TABLE public.schedules (
@@ -289,10 +289,10 @@ CREATE TABLE public.schedules (
 );
 
 
-ALTER TABLE public.schedules OWNER TO jamesbiser;
+ALTER TABLE public.schedules OWNER TO jaywang;
 
 --
--- Name: schedules_scheduleid_seq; Type: SEQUENCE; Schema: public; Owner: jamesbiser
+-- Name: schedules_scheduleid_seq; Type: SEQUENCE; Schema: public; Owner: jaywang
 --
 
 CREATE SEQUENCE public.schedules_scheduleid_seq
@@ -304,73 +304,73 @@ CREATE SEQUENCE public.schedules_scheduleid_seq
     CACHE 1;
 
 
-ALTER TABLE public.schedules_scheduleid_seq OWNER TO jamesbiser;
+ALTER TABLE public.schedules_scheduleid_seq OWNER TO jaywang;
 
 --
--- Name: schedules_scheduleid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jamesbiser
+-- Name: schedules_scheduleid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: jaywang
 --
 
 ALTER SEQUENCE public.schedules_scheduleid_seq OWNED BY public.schedules.scheduleid;
 
 
 --
--- Name: customers customerid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: customers customerid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.customers ALTER COLUMN customerid SET DEFAULT nextval('public.customers_customerid_seq'::regclass);
 
 
 --
--- Name: employees employeeid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: employees employeeid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.employees ALTER COLUMN employeeid SET DEFAULT nextval('public.employees_employeeid_seq'::regclass);
 
 
 --
--- Name: menuitems itemid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: menuitems itemid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.menuitems ALTER COLUMN itemid SET DEFAULT nextval('public.menuitems_itemid_seq'::regclass);
 
 
 --
--- Name: orderdetails orderdetailid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: orderdetails orderdetailid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orderdetails ALTER COLUMN orderdetailid SET DEFAULT nextval('public.orderdetails_orderdetailid_seq'::regclass);
 
 
 --
--- Name: orders orderid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: orders orderid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orders ALTER COLUMN orderid SET DEFAULT nextval('public.orders_orderid_seq'::regclass);
 
 
 --
--- Name: payments paymentid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: payments paymentid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.payments ALTER COLUMN paymentid SET DEFAULT nextval('public.payments_paymentid_seq'::regclass);
 
 
 --
--- Name: reservations reservationid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: reservations reservationid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.reservations ALTER COLUMN reservationid SET DEFAULT nextval('public.reservations_reservationid_seq'::regclass);
 
 
 --
--- Name: schedules scheduleid; Type: DEFAULT; Schema: public; Owner: jamesbiser
+-- Name: schedules scheduleid; Type: DEFAULT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.schedules ALTER COLUMN scheduleid SET DEFAULT nextval('public.schedules_scheduleid_seq'::regclass);
 
 
 --
--- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.customers (customerid, name, contactinfo, loyaltypoints) FROM stdin;
@@ -382,7 +382,7 @@ COPY public.customers (customerid, name, contactinfo, loyaltypoints) FROM stdin;
 
 
 --
--- Data for Name: employees; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: employees; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.employees (employeeid, username, password, role, name, contactinfo) FROM stdin;
@@ -391,14 +391,11 @@ COPY public.employees (employeeid, username, password, role, name, contactinfo) 
 3	asmith	Waiter123$	waiter	Alice Smith	asmith@example.com
 4	bwhite	Chef123#	chef	Bob White	bwhite@example.com
 5	dynamic_user	dynamic_password	\N	\N	\N
-8	bestPrez	Trump	PRESIDENT	Donald Trump	TMoney@ONTOP.com
-7	JBiden	joebiden	BadPrez	Joe Biden	joeBiden@OUTTIE.edu
-9	joeSmo	joeSmo	joeSmo	joeSmo	joeSmo
 \.
 
 
 --
--- Data for Name: menuitems; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: menuitems; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.menuitems (itemid, name, price, allergens) FROM stdin;
@@ -422,7 +419,7 @@ COPY public.menuitems (itemid, name, price, allergens) FROM stdin;
 
 
 --
--- Data for Name: orderdetails; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: orderdetails; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.orderdetails (orderdetailid, orderid, itemid, quantity, price) FROM stdin;
@@ -436,7 +433,7 @@ COPY public.orderdetails (orderdetailid, orderid, itemid, quantity, price) FROM 
 
 
 --
--- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: orders; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.orders (orderid, tablenumber, ordertime, status) FROM stdin;
@@ -448,7 +445,7 @@ COPY public.orders (orderid, tablenumber, ordertime, status) FROM stdin;
 
 
 --
--- Data for Name: payments; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: payments; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.payments (paymentid, orderid, amount, paymentmethod, paymenttime) FROM stdin;
@@ -460,7 +457,7 @@ COPY public.payments (paymentid, orderid, amount, paymentmethod, paymenttime) FR
 
 
 --
--- Data for Name: reservations; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: reservations; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.reservations (reservationid, customername, partysize, reservationtime, contactinfo) FROM stdin;
@@ -471,7 +468,7 @@ COPY public.reservations (reservationid, customername, partysize, reservationtim
 
 
 --
--- Data for Name: schedules; Type: TABLE DATA; Schema: public; Owner: jamesbiser
+-- Data for Name: schedules; Type: TABLE DATA; Schema: public; Owner: jaywang
 --
 
 COPY public.schedules (scheduleid, employeeid, shifttime, jobrole) FROM stdin;
@@ -485,63 +482,63 @@ COPY public.schedules (scheduleid, employeeid, shifttime, jobrole) FROM stdin;
 
 
 --
--- Name: customers_customerid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: customers_customerid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.customers_customerid_seq', 4, true);
 
 
 --
--- Name: employees_employeeid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: employees_employeeid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.employees_employeeid_seq', 9, true);
 
 
 --
--- Name: menuitems_itemid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: menuitems_itemid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.menuitems_itemid_seq', 16, true);
 
 
 --
--- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: orderdetails_orderdetailid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.orderdetails_orderdetailid_seq', 6, true);
 
 
 --
--- Name: orders_orderid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: orders_orderid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.orders_orderid_seq', 4, true);
 
 
 --
--- Name: payments_paymentid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: payments_paymentid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.payments_paymentid_seq', 4, true);
 
 
 --
--- Name: reservations_reservationid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: reservations_reservationid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.reservations_reservationid_seq', 3, true);
 
 
 --
--- Name: schedules_scheduleid_seq; Type: SEQUENCE SET; Schema: public; Owner: jamesbiser
+-- Name: schedules_scheduleid_seq; Type: SEQUENCE SET; Schema: public; Owner: jaywang
 --
 
 SELECT pg_catalog.setval('public.schedules_scheduleid_seq', 6, true);
 
 
 --
--- Name: customers customers_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: customers customers_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.customers
@@ -549,7 +546,7 @@ ALTER TABLE ONLY public.customers
 
 
 --
--- Name: employees employees_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: employees employees_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.employees
@@ -557,7 +554,7 @@ ALTER TABLE ONLY public.employees
 
 
 --
--- Name: employees employees_username_key; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: employees employees_username_key; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.employees
@@ -565,7 +562,7 @@ ALTER TABLE ONLY public.employees
 
 
 --
--- Name: menuitems menuitems_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: menuitems menuitems_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.menuitems
@@ -573,7 +570,7 @@ ALTER TABLE ONLY public.menuitems
 
 
 --
--- Name: orderdetails orderdetails_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: orderdetails orderdetails_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orderdetails
@@ -581,7 +578,7 @@ ALTER TABLE ONLY public.orderdetails
 
 
 --
--- Name: orders orders_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: orders orders_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orders
@@ -589,7 +586,7 @@ ALTER TABLE ONLY public.orders
 
 
 --
--- Name: payments payments_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: payments payments_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.payments
@@ -597,7 +594,7 @@ ALTER TABLE ONLY public.payments
 
 
 --
--- Name: reservations reservations_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: reservations reservations_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.reservations
@@ -605,7 +602,7 @@ ALTER TABLE ONLY public.reservations
 
 
 --
--- Name: schedules schedules_employeeid_shifttime_key; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: schedules schedules_employeeid_shifttime_key; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.schedules
@@ -613,7 +610,7 @@ ALTER TABLE ONLY public.schedules
 
 
 --
--- Name: schedules schedules_pkey; Type: CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: schedules schedules_pkey; Type: CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.schedules
@@ -621,7 +618,7 @@ ALTER TABLE ONLY public.schedules
 
 
 --
--- Name: orderdetails orderdetails_itemid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: orderdetails orderdetails_itemid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orderdetails
@@ -629,7 +626,7 @@ ALTER TABLE ONLY public.orderdetails
 
 
 --
--- Name: orderdetails orderdetails_orderid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: orderdetails orderdetails_orderid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.orderdetails
@@ -637,7 +634,7 @@ ALTER TABLE ONLY public.orderdetails
 
 
 --
--- Name: payments payments_orderid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: payments payments_orderid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.payments
@@ -645,7 +642,7 @@ ALTER TABLE ONLY public.payments
 
 
 --
--- Name: schedules schedules_employeeid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jamesbiser
+-- Name: schedules schedules_employeeid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: jaywang
 --
 
 ALTER TABLE ONLY public.schedules
@@ -653,129 +650,129 @@ ALTER TABLE ONLY public.schedules
 
 
 --
--- Name: SCHEMA public; Type: ACL; Schema: -; Owner: jamesbiser
+-- Name: SCHEMA public; Type: ACL; Schema: -; Owner: jaywang
 --
 
 GRANT USAGE ON SCHEMA public TO bootstrap_user;
 
 
 --
--- Name: TABLE customers; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE customers; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.customers TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE customers_customerid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE customers_customerid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.customers_customerid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE employees; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE employees; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.employees TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE employees_employeeid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE employees_employeeid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.employees_employeeid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE menuitems; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE menuitems; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.menuitems TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE menuitems_itemid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE menuitems_itemid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.menuitems_itemid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE orderdetails; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE orderdetails; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.orderdetails TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE orderdetails_orderdetailid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE orderdetails_orderdetailid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.orderdetails_orderdetailid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE orders; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE orders; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.orders TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE orders_orderid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE orders_orderid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.orders_orderid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE payments; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE payments; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.payments TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE payments_paymentid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE payments_paymentid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.payments_paymentid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE reservations; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE reservations; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.reservations TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE reservations_reservationid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE reservations_reservationid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.reservations_reservationid_seq TO bootstrap_user;
 
 
 --
--- Name: TABLE schedules; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: TABLE schedules; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.schedules TO bootstrap_user;
 
 
 --
--- Name: SEQUENCE schedules_scheduleid_seq; Type: ACL; Schema: public; Owner: jamesbiser
+-- Name: SEQUENCE schedules_scheduleid_seq; Type: ACL; Schema: public; Owner: jaywang
 --
 
 GRANT SELECT,USAGE ON SEQUENCE public.schedules_scheduleid_seq TO bootstrap_user;
 
 
 --
--- Name: DEFAULT PRIVILEGES FOR TABLES; Type: DEFAULT ACL; Schema: public; Owner: jamesbiser
+-- Name: DEFAULT PRIVILEGES FOR TABLES; Type: DEFAULT ACL; Schema: public; Owner: jaywang
 --
 
-ALTER DEFAULT PRIVILEGES FOR ROLE jamesbiser IN SCHEMA public GRANT SELECT,INSERT,DELETE,UPDATE ON TABLES  TO bootstrap_user;
+ALTER DEFAULT PRIVILEGES FOR ROLE jaywang IN SCHEMA public GRANT SELECT,INSERT,DELETE,UPDATE ON TABLES  TO bootstrap_user;
 
 
 --
